@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple website</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<header th:replace="fragments/header.html :: shared_header"></header>
+<main>
+    <section id="topArea">
+        <h3>Our main page</h3>
+    </section>
+    <section id="restOfSite">
+        <section>
+            <div class="half">
+                <div>One side, first element, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque deserunt incidunt nihil officiis, perspiciatis quae reiciendis temporibus tenetur veritatis? Iure iusto maxime nesciunt! Cum est odit quae quaerat quos.</div>
+                <div>One side, second element, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem cupiditate magni numquam? Adipisci alias atque blanditiis dolorum error minima modi natus, nihil optio provident quo rem sapiente voluptas voluptatibus.</div>
+            </div>
+            <div class="half">
+                <div>Another side, first element, Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi consectetur enim eum illum iste magnam veniam vero? Animi commodi corporis eligendi inventore ipsa itaque libero, maxime perspiciatis suscipit voluptatibus!</div>
+                <div>Another side, second element, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consequatur esse et eum in iste nisi pariatur praesentium recusandae similique. Excepturi, sapiente, suscipit! Alias aut ex laboriosam minus tempore veritatis.</div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h4>Some kind of list</h4>
+                <ul><!-- unordered list -->
+                    <li>some item</li>
+                    <li>another item</li>
+                    <li>yet another item</li>
+                    <li>definitely another item</li>
+                    <li>so this is an item</li>
+                </ul>
+                <ol type="1" start="100"><!-- ordered list type = number, alphabets, roman numerals -->
+                    <li>some item</li>
+                    <li>another item</li>
+                    <li>yet another item</li>
+                    <li>definitely another item</li>
+                    <li>so this is an item</li>
+                </ol>
+            </div>
+            <div>
+
+            </div>
+        </section>
+    </section>
+</main>
+</body>
+</html>

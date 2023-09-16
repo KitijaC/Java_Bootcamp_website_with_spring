@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple website</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="../websiteWithSpring/src/main/resources/static/contact.css">
+</head>
+<body>
+<header th:replace="fragments/header.html :: shared_header"></header>
+<main>
+    <section id="topArea">
+        <h3>Our Contact page</h3>
+    </section>
+    <section id="restOfSite">
+        <form method="post">
+            <div>
+                <label>Name</label>
+                <input type="text" name="fullName" placeholder="Enter your name">
+            </div>
+            <div>
+                <label>Email Address</label>
+                <input type="email" name="email" placeholder="Enter your email address">
+            </div>
+            <div>
+                <label>Phone Number</label>
+                <input type="tel" name="phoneNumber" placeholder="Enter your phone number">
+            </div>
+            <div>
+                <label>Reply date</label>
+                <input type="datetime-local" name="replyTime" placeholder="">
+            </div>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <div>
+                <button class="button">Submit</button>
+            </div>
+        </form>
+    </section>
+</main>
+</body>
+</html>

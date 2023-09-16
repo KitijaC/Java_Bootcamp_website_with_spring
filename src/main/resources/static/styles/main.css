@@ -1,0 +1,39 @@
+body {
+    /*RGB RR GG BB 0-9 & a,A-f,F*/
+    background: #ffffff;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    color: purple;
+    background: #191514;
+    width: 100%;
+    padding: 10px;
+}
+
+#navigation {
+    padding-bottom: 10px;
+}
+
+.button {
+    background: purple;
+    color: white;
+    padding: 6px 20px;
+    margin: 5px 5px;
+    font-family: cursive;
+    font-size: larger;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#topArea, #restOfSite {
+    margin: 30px 20px;
+}
+
+.half {
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
+}

@@ -1,0 +1,14 @@
+#restOfSite form, #restOfSite input, #restOfSite textarea, #restOfSite button {
+    font-size: 18px;
+}
+
+#restOfSite input, #restOfSite textarea {
+    border: none;
+    border-bottom: 2px solid purple;
+    color: purple;
+}
+
+#restOfSite div {
+    margin-bottom: 5px;
+    padding: 5px;
+}
